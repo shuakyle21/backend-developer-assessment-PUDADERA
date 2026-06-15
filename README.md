@@ -1,4 +1,4 @@
-# Full Stack Developer Technical Assessment
+# Backend Developer Technical Assessment
 
 Thank you for your interest in joining our team.
 
