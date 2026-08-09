@@ -107,3 +107,5 @@ The Docker setup gave me a headache too. My seed script kept failing and I could
 ### 5. Did you use AI tools during development?
 
 Yeah, I used Claude Code the whole way through. It helped me scaffold the layered project structure and wrote a first pass at the CRUD endpoints and validation logic, which I then went through and adjusted myself. I also leaned on it to help set up and debug the Docker config, including tracking down the volume-mount issue mentioned above. I didn't just trust the output though — I tested everything myself with curl and the `/docs` Swagger UI before considering it done.
+
+Whenever I hit a roadblock I didn't fully understand, I used a mentoring-style, Socratic approach with it instead of just asking for the fix — getting asked questions back until I could explain the problem myself. That kept me from copy-pasting solutions I couldn't defend, and it's the same habit I want to keep leaning on so I can work through roadblocks on my own next time.
