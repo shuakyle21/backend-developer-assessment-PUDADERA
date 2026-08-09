@@ -48,6 +48,7 @@ python scripts/seed.py
 uvicorn app.main:app --reload
 ```
 ![Database Table](docs/images/db.png)
+For this assessment, I used OpenDB as my DB for SQLite.
 
 The API will be running at `http://127.0.0.1:8000`. Interactive docs (Swagger UI) are at `http://127.0.0.1:8000/docs`.
 ![Swagger Docs](<docs/images/swagger docs.png>)
