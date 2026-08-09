@@ -1,45 +1,57 @@
-# Backend Developer Technical Assessment
+# Task Management Application
 
-Thank you for your interest in joining our team.
+<!-- TODO(human): One or two sentences describing what this project is. -->
 
-This assessment is designed to evaluate your problem-solving skills, coding practices, technical decision-making, and ability to deliver a functional application.
+## Table of Contents
 
-## Estimated Time
+* [Setup Instructions](#setup-instructions)
+* [Technology Choices](#technology-choices)
+* [How to Run the Application](#how-to-run-the-application)
+* [Assumptions Made](#assumptions-made)
+* [Technical Reflection](#technical-reflection)
 
-2-4 hours
+## Setup Instructions
 
-## Objective
+<!-- TODO(human): Prerequisites (language/runtime version, package manager) and install steps. -->
 
-Build a simple Task Management application that allows users to create, update, view, and delete tasks.
+```bash
 
-The assessment focuses on code quality, architecture, maintainability, and communication rather than feature completeness.
+```
 
-## Instructions
+## Technology Choices
 
-Please review the following documents before starting:
+<!-- TODO(human): List the stack (language, framework, database, libraries) and why each was picked. -->
 
-* REQUIREMENTS.md
-* SUBMISSION.md
+## How to Run the Application
 
-## Allowed Tools
+<!-- TODO(human): Commands to start the app (dev server, tests, migrations, seed data, env vars). -->
 
-You may use:
+```bash
 
-* AI tools (ChatGPT, Claude, Cursor, GitHub Copilot, etc.)
-* Open-source libraries
-* Frameworks of your choice
+```
 
-If AI tools are used, please disclose them in your submission.
+## Assumptions Made
 
-## Evaluation Criteria
+<!-- TODO(human): Any assumptions about ambiguous requirements from REQUIREMENTS.md. -->
 
-Your submission will be evaluated based on:
+## Technical Reflection
 
-* Functionality
-* Code Quality
-* Architecture
-* Documentation
-* Error Handling
-* Communication of Technical Decisions
+### 1. Why did you choose this implementation approach?
 
-Good luck, and we look forward to reviewing your submission.
+<!-- TODO(human) -->
+
+### 2. What tradeoffs did you make?
+
+<!-- TODO(human) -->
+
+### 3. What would you improve if given additional time?
+
+<!-- TODO(human) -->
+
+### 4. What was the most challenging part of this assessment?
+
+<!-- TODO(human) -->
+
+### 5. Did you use AI tools during development?
+
+<!-- TODO(human): Yes/No. If yes, which tools and how were they used? -->
