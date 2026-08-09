@@ -1,10 +1,14 @@
 import json
+import os
 import sqlite3
+
+DATABASE_PATH = os.getenv("DATABASE_PATH", "./data.db")
 
 with open("test_data.json") as f:
     projects = json.load(f)
 
-conn = sqlite3.connect("data.db")
+os.makedirs(os.path.dirname(DATABASE_PATH) or ".", exist_ok=True)
+conn = sqlite3.connect(DATABASE_PATH)
 cur = conn.cursor()
 
 cur.execute(

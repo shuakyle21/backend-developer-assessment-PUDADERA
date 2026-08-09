@@ -1,4 +1,4 @@
-# Task Management Application
+# Task Management Application 
 
 <!-- TODO(human): One or two sentences describing what this project is. -->
 

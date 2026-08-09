@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      # Directory mount (not a file mount) so Docker can create it fresh on
+      # an empty host dir without shadowing a file baked into the image.
+      - DATABASE_PATH=/app/data/data.db
+    volumes:
+      - ./data:/app/data
